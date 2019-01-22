@@ -12,6 +12,8 @@
 		27F0EE0C21F6644E004EB07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F0EE0A21F6644E004EB07B /* Main.storyboard */; };
 		27F0EE0E21F66451004EB07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F0EE0D21F66451004EB07B /* Assets.xcassets */; };
 		27F0EE1121F66451004EB07B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F0EE0F21F66451004EB07B /* LaunchScreen.storyboard */; };
+		27F0EE1A21F7644A004EB07B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F0EE1921F7644A004EB07B /* AVFoundation.framework */; };
+		27F0EE1E21F76737004EB07B /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27F0EE1D21F76737004EB07B /* click.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		27F0EE0D21F66451004EB07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27F0EE1021F66451004EB07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27F0EE1221F66451004EB07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F0EE1921F7644A004EB07B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		27F0EE1D21F76737004EB07B /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F0EE1A21F7644A004EB07B /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				27F0EE0521F6644E004EB07B /* Timer */,
 				27F0EE0421F6644E004EB07B /* Products */,
+				27F0EE1821F76449004EB07B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +68,15 @@
 				27F0EE1221F66451004EB07B /* Info.plist */,
 			);
 			path = Timer;
+			sourceTree = "<group>";
+		};
+		27F0EE1821F76449004EB07B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27F0EE1D21F76737004EB07B /* click.wav */,
+				27F0EE1921F7644A004EB07B /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +140,7 @@
 				27F0EE1121F66451004EB07B /* LaunchScreen.storyboard in Resources */,
 				27F0EE0E21F66451004EB07B /* Assets.xcassets in Resources */,
 				27F0EE0C21F6644E004EB07B /* Main.storyboard in Resources */,
+				27F0EE1E21F76737004EB07B /* click.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
